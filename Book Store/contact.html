@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book-Store</title>
+    <link rel="icon" href="books.png" />
+
+    <!------Coustom Css Link --->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!------Boxicon Css Link --->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!------remixicon Css Link --->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!------Google-Font Css Link --->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <style>
+      body {
+        overflow-x: hidden;
+      }
+      #contatti {
+        background: linear-gradient(245.59deg, #000809 0%, #34bf9e 28.53%, #000000 75.52%);
+        letter-spacing: 2px;
+        width: 1700px;
+        height: 700px;
+      }
+      #contatti a {
+        color: #fff;
+        text-decoration: none;
+      }
+      @media (max-width: 575.98px) {
+        #contatti {
+          padding-bottom: 800px;
+        }
+
+        #contatti .maps iframe {
+          width: 100%;
+          height: 450px;
+        }
+      }
+      @media (min-width: 576px) {
+        #contatti {
+          padding-bottom: 800px;
+        }
+
+        #contatti .maps iframe {
+          width: 100%;
+          height: 450px;
+        }
+      }
+
+      @media (min-width: 768px) {
+        #contatti {
+          padding-bottom: 350px;
+        }
+
+        #contatti .maps iframe {
+          width: 100%;
+          height: 850px;
+        }
+      }
+
+      @media (min-width: 992px) {
+        #contatti {
+          padding-bottom: 200px;
+        }
+
+        #contatti .maps iframe {
+          width: 500px;
+          height: 500px;
+        }
+      }
+
+      #author a {
+        color: #fff;
+        text-decoration: none;
+      }
+      h1{
+        color: #fff;
+        text-transform:uppercase;
+        font-size: 40px;
+        text-shadow: #fff;
+        font-weight: 700;
+        margin-top: 20px;
+      }
+      .form-control{
+        font-family: cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="row" id="contatti">
+      <div class="container mt-5">
+        <div class="row" style="height: 550px">
+          <div class="col-md-6 maps">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.4020252335153!2d75.80171246257788!3d26.88976880892378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396dca04b57eac93%3A0xe0b453ca346f634b!2sApex%20Mall%2C%20Lal%20Kothi!5e0!3m2!1sen!2sin!4v1748251799141!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <h1>Book-store:-</h1>
+          </div>
+          <div class="col-md-6">
+            <h2 class="text-uppercase mt-3 font-weight-bold text-white">
+              C O N T A C T U,S
+            </h2>
+            <form action="">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control mt-2"
+                      placeholder="Full Name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control mt-2"
+                      placeholder="Last Name"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input
+                      type="email"
+                      class="form-control mt-2"
+                      placeholder="Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="form-group">
+                    <input
+                      type="number"
+                      class="form-control mt-2"
+                      placeholder="Phone Number"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      id="exampleFormControlTextarea1"
+                      placeholder="Your Massage"
+                      rows="3"
+                      required
+                    ></textarea>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group"></div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-light" type="submit">Submit</button>
+                </div>
+              </div>
+            </form>
+            <div class="text-white">
+              <h2 class="text-uppercase mt-4 font-weight-bold">Address</h2>
+
+              <i class="fas fa-phone mt-3"></i>
+              <a href="tel:+">+91 8182000925</a><br />
+              <i class="fa fa-envelope mt-3"></i>
+              <a href="mailto:switajmer@gmail.com">bookstore033@gmail.com</a
+              ><br />
+              <i class="fas fa-globe mt-3"> </i>A-8 SatyaVihar Colony,
+              indraPuri, LalKhoti, Jaipur<br />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------------------------Footer---------------------------------------------->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Book-Store</h4>
+            <div class="social-links">
+              <a href=""><i class="bx bxl-facebook-circle"></i></a>
+              <a href="#"><i class="bx bxl-twitter"></i></a>
+              <a href="#"><i class="bx bxl-instagram"></i></a>
+              <a href="#"><i class="bx bxl-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Qucik Links</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Books</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">Authors</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Resources</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="#">Order Track</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Find My Product</a></li>
+              <li><a href="#">Guide</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">FAQ-Happy Return</a></li>
+              <li><a href="#">Help Desk</a></li>
+              <li><a href="#">Writer/Publisher Request</a></li>
+              <li><a href="#">Help Desk</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Policies</h4>
+            <ul>
+              <li><a href="#">Terms Of Use</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Happy Return</a></li>
+              <li><a href="#">Return Policy</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <p class="f-name">@Copyright Powered by <a href="">&WebDeveloper</a></p>
+    </footer>
+
+    <!---Scrollreveal effect---->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!------coustom js Link --->
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book-Store</title>
+    <link rel="icon" href="books.png" />
+
+    <!------Coustom Css Link --->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+    <!------Boxicon Css Link --->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+
+    <!------remixicon Css Link --->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!------Google-Font Css Link --->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!---------------------------------------------------------Navbar--------------------------------------->
+    <header>
+      <a href="#" class="logo">Book-Store</a>
+      <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="#">Books <i class="bx bxs-down-arrow"></i></a>
+
+          <div class="dropdown__menu">
+            <ul>
+              <li><a href="Fictionpage.html" target="_blank">Fiction</a></li>
+              <li>
+                <a href="Non-Fiction.html" target="_blank">Non-Fiction</a>
+              </li>
+              <li>
+                <a href="other.html" target="_blank"
+                  >All-Books<i class="bx bxs-right-arrow"></i
+                ></a>
+
+                <div class="dropdown__menu-1">
+                  <ul>
+                    <li><a href="#">Kid's</a></li>
+                    <li><a href="#">Biography</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Cookbooks</a></li>
+                    <li><a href="#">Philosophy</a></li>
+                  </ul>
+                </div>
+              </li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </div>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header> 
+    <!-- ----------------------------------------------------------allbooks0---------------------------- -->
+    
+  <div class="mainContentFloat">
+      <img  class="imge1" src="images/random.jpg">
+      <div class="heading">Genres</div>
+
+      <div class="leftContainer">
+        <form name="shelfSearchForm" class="exploreSearchForm box greyBox searchBox searchBox--large" action="/genres/search" accept-charset="UTF-8" method="get">
+      <input name="utf8" type="hidden" value="✓">
+      <input type="text" name="shelf" id="shelf" placeholder="Find a book by name" class="searchBox--large__input" style="width: 508px">
+      <input type="submit" value="Find-Book" class="gr-button u-marginLeftTiny">
+    </form>
+
+    <div class="h2Container">
+      <h2 class="backh2">
+        <a href="#">Non-Fiction</a>
+      </h2>
+    </div>
+    <hr class="hr-left">
+      </div>
+
+      <div class="rightContainer">
+
+        <div class="h2container-right">
+          <h2 class="back2-right">
+            <a href="#">My Favorite Books</a>
+          </h2>
+        </div>
+        <hr class="hr-right">
+        
+        <div class="rightbigbox">
+           <div class="sidecontainer">
+            <div class="sideleft">
+               <a class="gr-hyperlink" href="/genres/biography">Biography</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Business</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Children's</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">CookBooks</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Fiction</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Nonfiction</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Memoir</a>
+               <br>
+            </div>
+            <div class="sideright">
+               <a class="gr-hyperlink" href="/genres/biography">Philosophy</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Science</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Suspense</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Thriller</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Travel</a>
+               <br>
+               <a class="gr-hyperlink" href="/genres/biography">Young Adult</a>
+            </div>
+
+            </div>
+            <div class="bigbocbottom">
+              <div class="h2container-right">
+              <h2 class="back2-bottom">
+              <a href="#">BROWSE</a>
+             </h2>
+            </div>
+
+          </div>
+    </div>
+  </div>
+  </body>
+</html>
